@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Order_Pizza
 {
     public partial class Form1 : Form
@@ -17,9 +18,10 @@ namespace Order_Pizza
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 frm = new Form2(); 
+            frm.ShowDialog();               
         }
     }
 }
